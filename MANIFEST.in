@@ -1,0 +1,2 @@
+recursive-include plonees *
+global-exclude *pyc *swp

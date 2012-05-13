@@ -1,0 +1,16 @@
+# Plone Development Environment
+#
+# Python compiled files
+*.py[co]
+#
+# Python eggs
+*.egg-info
+*.egg
+build
+#
+# Paster
+Paste*
+#
+# Vi
+*.swp
+*.swo
