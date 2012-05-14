@@ -6,7 +6,7 @@ version = '1.0dev'
 setup(name='plonees.policy',
       version=version,
       description="Plone.es policy package",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
@@ -17,7 +17,7 @@ setup(name='plonees.policy',
       keywords='',
       author='Danilo Dellaquila',
       author_email='ddellaquila@gmail.com',
-      url='https://github.com/plone-es/plonees.policy.git',
+      url='https://github.com/plone-es/plonees.policy',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['plonees'],
@@ -26,6 +26,7 @@ setup(name='plonees.policy',
       install_requires=[
           'setuptools',
           'Plone',
+          'plonetheme.plonees',
       ],
       extras_require={
         'test': ['plone.app.testing',]
