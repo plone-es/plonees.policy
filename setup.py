@@ -26,6 +26,7 @@ setup(name='plonees.policy',
       install_requires=[
           'setuptools',
           'Plone',
+          'Products.ContentWellPortlets',
           'plonetheme.plonees',
       ],
       extras_require={

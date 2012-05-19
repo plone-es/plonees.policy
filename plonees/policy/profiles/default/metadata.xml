@@ -2,6 +2,7 @@
 <metadata>
   <version>1.0</version>
   <dependencies>
+    <dependency>profile-Products.ContentWellPortlets:default</dependency>
     <dependency>profile-plonetheme.plonees:default</dependency>
   </dependencies>
 </metadata>
